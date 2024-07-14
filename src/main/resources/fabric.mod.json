@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "azors_desertplus",
+	"version": "${version}",
+	"name": "Azors DesertPlus",
+	"description": "Adds content to the deserts!",
+	"authors": [
+		"Azor"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/azors_desertplus/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.azor.azorsdesertplus.AzorsDesertPlus"
+		],
+		"client": [
+			"net.azor.azorsdesertplus.AzorsDesertPlusClient"
+		],
+		"fabric-datagen": [
+			"net.azor.azorsdesertplus.AzorsDesertPlusDataGenerator"
+		]
+	},
+	"mixins": [
+		"azors_desertplus.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
