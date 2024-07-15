@@ -16,7 +16,7 @@ public class ModItemGroups {
             new Identifier(AzorsDesertPlus.MOD_ID, "modname"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.azorsdesertplus.modname"))
                     .icon(() -> new ItemStack(Items.DEAD_BUSH)).entries((displayContext, entries) -> {
-                        entries.add(ModBlocks.QUICKSAND);
+                        entries.add(ModItems.QUICKSAND_BUCKET);
                     }).build());
 
     public static void registerItemGroups() {

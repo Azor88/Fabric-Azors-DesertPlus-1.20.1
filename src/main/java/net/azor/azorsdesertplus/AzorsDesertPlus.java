@@ -2,6 +2,7 @@ package net.azor.azorsdesertplus;
 
 import net.azor.azorsdesertplus.block.ModBlocks;
 import net.azor.azorsdesertplus.item.ModItemGroups;
+import net.azor.azorsdesertplus.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -17,6 +18,7 @@ public class AzorsDesertPlus implements ModInitializer {
 
 		LOGGER.info("Hello Fabric world!");
 		ModBlocks.registerModBlocks();
+		ModItems.registerModItems();
 		ModItemGroups.registerItemGroups();
 	}
 }
