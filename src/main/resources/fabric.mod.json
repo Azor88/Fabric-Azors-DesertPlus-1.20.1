@@ -12,7 +12,7 @@
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "MIT",
-	"icon": "assets/azors_desertplus/icon.png",
+	"icon": "assets/azorsdesertplus/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
@@ -26,7 +26,7 @@
 		]
 	},
 	"mixins": [
-		"azors_desertplus.mixins.json"
+		"azorsdesertplus.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.15.11",
